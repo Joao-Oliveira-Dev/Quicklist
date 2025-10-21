@@ -32,6 +32,8 @@ body {
   padding: 8rem 3.2rem 17rem;
 }
 
+/* finalização das partes primarias da estilização */
+
 header {
   display: none;
 }
@@ -93,6 +95,8 @@ main h1 {
 #listContainer input:focus::placeholder {
   color: var(--text-color);
 }
+
+/* Parte da estilização da lista, itens e animações de adição de cada conteúdo */
 
 #addItem {
   font-size: 1.6rem;
@@ -199,6 +203,8 @@ main h1 {
   animation: slide-in-blurred-bottom 0.9s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
 
+/* Animações para os botões e transições de interação do usuário */
+
 @-webkit-keyframes slide-in-blurred-bottom {
   0% {
     -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
@@ -272,6 +278,8 @@ main h1 {
 #itemRemoved.hidden {
   display: none;
 }
+
+ /* Acessibilidade e visualização via Mobile */
 
 @media (min-width: 580px) {
   body {
