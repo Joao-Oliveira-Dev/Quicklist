@@ -1,4 +1,4 @@
-<h1> 💻 Hello Wor.. Devs! <br> <br> Quicklist lista de compras - Patins </h1> 
+<h1> 💻 Hello Wor.. Devs! <br> <br> Quicklist - lista de compras </h1> 
 Projeto feito como parte dos estudos de FullStack da Rockeatseat, sendo essa, a minha forma de compartilhar o meu progresso diante da minha jornada DEV!
 
 <br> 
