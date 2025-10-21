@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --primary-color: #ca3884;
+  --hover-btn-color: #a52c6b;
+  --removal-color: #c93847;
+  --text-color: #080b12;
+  --background-color: #f4f5fb;
+  --border-primary: #d1d5db;
+  --border-hover: #b9c2d0;
+  --placeholder-color: #9ca3af;
+  --content-secondary: #374151;
+}
+
+body {
+  font-family: "Inter", serif;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--background-color);
+  max-width: 39rem;
+  max-height: 84.4rem;
+  padding: 8rem 3.2rem 17rem;
+}
+
+header {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+#tittleBtn {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+
+  color: var(--primary-color);
+  border: none;
+  background-color: transparent;
+
+  width: 5.7rem;
+  cursor: pointer;
+
+  outline: none;
+}
+
+main h1 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+
+  color: var(--text-color);
+}
+
+#listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+#listContainer input {
+  font-size: 1.6rem;
+  padding: 1.1rem 1.8rem;
+  margin-top: 4.4rem;
+
+  border-radius: 1.2rem;
+  border: 0.1rem solid var(--border-primary);
+  color: var(--content-secondary);
+}
+
+#listContainer input:hover {
+  border: 0.1rem solid var(--border-hover);
+}
+
+#listContainer input:focus {
+  outline: none;
+  border: 0.2rem solid var(--primary-color);
+}
+
+#listContainer input:focus::placeholder {
+  color: var(--text-color);
+}
+
+#addItem {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+
+  padding: 1.2rem 10.7rem;
+  background-color: var(--primary-color);
+  color: white;
+
+  border-radius: 1.2rem;
+  border: 0.1rem solid var(--border-primary);
+
+  cursor: pointer;
+}
